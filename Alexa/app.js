@@ -4,7 +4,7 @@
 
 const Alexa = require('alexa-sdk'),
       extensions = require('./extensions'),
-      serverUrl = 
+      serverUrl =  '', // todo
       appId = 'amzn1.ask.skill.a8e13fd4-59cd-468f-ba76-724309587de3'; 
 
 // Handler for intents
@@ -12,6 +12,18 @@ const handlers = {
     'TestIntent': function() {
         this.emit(':tell', 'Hey Nathan, nice face');
     },
+    'DeliverIntent': function() {
+
+    },
+    'LandIntent': function() {
+
+    },
+    'GoHomeIntent': function() {
+
+    },
+    'SingIntent': function() {
+
+    }
 }
 
 // Exports handler, called by Lambda
