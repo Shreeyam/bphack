@@ -1,16 +1,16 @@
-const gulp = require('gulp');
-const zip = require('gulp-zip');
-const rimraf = require('gulp-rimraf');
+const gulp = require('gulp'),
+      zip = require('gulp-zip'),
+      rimraf = require('gulp-rimraf');
 
 gulp.task('build', ['zip']);
 
 gulp.task('zip',['rimraf'], () => {
-    return gulp.src(['app.js', 'extensions.js', '*.txt'])
+    return gulp.src(['**/*.js', '!gulpfile.js'])
         .pipe(zip('bphack.zip'))
         .pipe(gulp.dest('bin'));
 });
 
 gulp.task('rimraf', () => {
-    return gulp.src('./dist/*', {read: false})
+    return gulp.src('./bin/*', {read: false})
     .pipe(rimraf({force:true}));
 });
