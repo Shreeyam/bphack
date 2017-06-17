@@ -1,0 +1,33 @@
+GetBalanceIntent what is my balance
+GetBalanceIntent what my balance is
+GetBalanceIntent check my balance
+GetBalanceIntent what is the balance in my {account} account
+GetBalanceIntent what the balance in my {account} account is
+TransactionsIntent list my last {transactions} transactions
+HelpIntent help
+HelpIntent help me
+HelpIntent what can I ask you
+HelpIntent get help
+HelpIntent to help
+HelpIntent to help me
+HelpIntent what commands can I ask
+HelpIntent what commands can I say
+SpecialOffersIntent what offers are available to me
+SpecialOffersIntent what are the latest offers
+SpecialOffersIntent any offers
+SpecialOffersIntent any offers right now
+IntroSpeechIntent introduce yourself
+SummaryIntent give me a summary
+TransferIntent transfer {amount} pounds from my {fromAccount} to my {toAccount} account
+UseCasesIntent what I can use you for
+SecurityIntent how secure you are
+MakePaymentIntent make a payment of {amount} pounds to {payee}
+AuthenticateIntent authenticate me
+AMAZON.NoIntent no
+VictoryIntent think we'll win
+VictoryIntent who do you think will win
+VictoryIntent who do you think will win the hackathon
+WorkingIntent if you're working
+TimeIntent time
+TimeIntent get time
+TimeIntent time for Lio

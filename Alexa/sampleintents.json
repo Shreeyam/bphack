@@ -1,0 +1,85 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "account",
+          "type": "ACCOUNT_TYPES"
+        }
+      ],
+      "intent": "GetBalanceIntent"
+    },
+    {
+      "intent": "HelpIntent"
+    },
+    {
+      "intent": "SpecialOffersIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "transactions",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "TransactionsIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "payee",
+          "type": "PAYEE_LIST"
+        },
+        {
+          "name": "amount",
+          "type": "AMAZON.NUMBER"
+        }
+      ],
+      "intent": "MakePaymentIntent"
+    },
+    {
+      "intent": "IntroSpeechIntent"
+    },
+    {
+      "intent": "SummaryIntent"
+    },
+    {
+      "intent": "SecurityIntent"
+    },
+    {
+      "intent": "UseCasesIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "VictoryIntent"
+    },
+    {
+      "intent": "WorkingIntent"
+    },
+    {
+      "intent": "AuthenticateIntent"
+    },
+    {
+      "intent": "TimeIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "amount",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "fromAccount",
+          "type": "ACCOUNT_TYPES"
+        },
+        {
+          "name": "toAccount",
+          "type": "ACCOUNT_TYPES"
+        }
+      ],
+      "intent": "TransferIntent"
+    }
+  ]
+}
