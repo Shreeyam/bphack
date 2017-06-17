@@ -1,0 +1,34 @@
+{
+  "name": "bphackdronesoc",
+  "version": "1.0.0",
+  "description": "bp hack software for alexa",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.10",
+    "alexa-skill": "^0.1.1",
+    "gulp": "^3.9.1",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-zip": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-zip": "^4.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shreeyam/bphack.git"
+  },
+  "author": "DroneSoc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shreeyam/bphack/issues"
+  },
+  "homepage": "https://github.com/Shreeyam/bphack#readme"
+}
